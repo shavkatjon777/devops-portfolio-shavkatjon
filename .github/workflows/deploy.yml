@@ -3,7 +3,7 @@ name: Deploy Portfolio to GitHub Pages
 on:
   push:
     branches:
-      - main  # Faqat main branchga push bo'lganda ishlaydi
+      - main
 
 permissions:
   contents: read
@@ -23,7 +23,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './src' # Bizning kodlarimiz src papkasida joylashgan
+          path: './src'
 
       - name: Deploy to GitHub Pages
         id: deployment
