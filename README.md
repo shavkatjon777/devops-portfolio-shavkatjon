@@ -53,11 +53,3 @@ This repository contains a professional DevOps Portfolio website, developed to d
 └── README.md               # Project documentation
 
 ```
-
-## 🎥 Video Demonstrations
-
-* **Video 1:** Monitoring & Analytics Setup [Link TBD]
-* **Video 2:** Docker Build & Local Run [Link TBD]
-* **Video 3:** Full DevOps Workflow Overview [Link TBD]
-
-```
